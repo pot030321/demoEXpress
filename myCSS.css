@@ -1,0 +1,93 @@
+/*author:phi */
+.header-content {
+    background-color: darkgray;
+    padding: 5px;
+    color: red;
+}
+
+.body-left-header-right {
+    text-align: right;
+    padding-right: 5px;
+    margin-top: 22px;
+}
+
+.body-left-content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 70%;
+    align-items: center;
+}
+
+.body-left img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.body-left h2 {
+    color: red;
+}
+
+.body-left p {
+    margin-top: 10px;
+}
+
+/* Right side */
+.body-right {
+    flex-grow: 1;
+}
+
+.body-right-head {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 5px;
+}
+
+.body-right-head a {
+    margin-right: 10px;
+}
+
+.body-right-head .date {
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+ul {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-right img {
+    max-width: 30%;
+    height: auto;
+    display: inline-block;
+    /* margin-left: auto;
+        align-self: flex-start;*/
+    margin-bottom: 10px;
+}
+
+.footer-right p {
+    margin: 0;
+}
+
+ul,
+h3 {
+    align-self: flex-start;
+}
+
+h3 {
+    background-color: darkgray;
+    padding: 5px;
+    color: red;
+}
